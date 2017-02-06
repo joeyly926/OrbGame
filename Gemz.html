@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Gemz</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<style>
+			#frame{
+				float:left;
+				border: 1px black solid;
+				width: 300px; height: 300px; 
+				padding: 0.5em;
+				background-color:#FFADD6;
+			}
+			.gem{
+				position: absolute;
+			}
+				display:inline-block;
+			body{
+				width:400px;
+				margin: auto;
+			}
+			
+		</style>
+		<script src='Gemz.js'></script>
+	</head>
+	<body>
+		<div id='frame'></div>
+		</br>
+		<button id='start' onclick='init()'> START! </button> 
+		<button id='grid6x6'> 6x6 </button> 
+		<button id='grid8x8'> 8x8 </button> 
+		<p id='size'></p>
+		<p id='level'></p>
+		<p id='progress'></p>
+		<p id='timer'></p>
+	</body>
+</html>
